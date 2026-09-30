@@ -67,7 +67,7 @@ while not pr.window_should_close():
     x_pos = int(screen_width / 2 - text_width.x / 2)
     y_pos = int(screen_height / 2 - text_width.y / 2)
     pr.draw_text_ex(font, text, pr.Vector2(x_pos, y_pos),
-                    font_size, 1, black)
+                    font_size, 1, pr.GRAY)
     pr.end_mode_2d()
 
     pr.end_drawing()
